@@ -1,0 +1,136 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    width: 100%;
+    
+}
+.boxes{
+  padding-top: 50px;
+    width: 80%;
+    margin: 0 10%;
+    box-sizing: border-box;
+    
+}
+.clear{
+    clear: both;
+}
+h1{
+   
+     font-size: 40px;
+     font-weight: 900;
+    
+ }
+h1::first-letter{
+    font-size: 70px;
+}
+.container img{
+    height: 40px;
+    width: 70px;
+}
+ .box{
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    width: 23%;
+    color:white;
+    margin: 10px;
+    float: left; 
+ 
+}
+.box h3{
+    width: 100%;
+    padding-top: 10px;
+    font-size: 17px;
+    box-sizing: border-box;
+    line-height: 3px;
+  
+
+}
+.box h4{
+    font-size:20px ;
+  
+}
+
+.box h3:first-letter{
+    font-size: 25px;
+    color:red;
+}
+footer{
+   padding: 10px;
+   margin-top: 6.5%;
+}
+footer p i{   
+ color: red;
+}
+footer p{
+    text-align: center;
+    line-height: 0;
+}
+
+@media (min-width: 1025px) 
+
+{
+    .box{
+        width: 20%;
+    }
+    .boxes{
+        margin-left: 14%;
+    }
+}
+@media (min-width: 768px) and (max-width:1024px)
+
+{
+    h3{ font-size: 7px; }
+    .box{width: 30%;}
+
+}
+
+
+
+@media (min-width: 481px) and (max-width:767px)
+
+{
+    .container{
+        width: 100%;
+        box-sizing: border-box;
+     }
+     .boxes{
+         width: 90%;
+         
+     }
+     h1{
+         font-size: 30px;
+     }
+     .box{
+         width: 180px;
+     }
+}
+@media (min-width: 320px) and (max-width:480px)
+
+{
+    
+    .container{
+        width: 100%;
+        box-sizing: border-box;
+     }
+     .boxes{
+         width: 90%;
+         margin-left: 5%;
+         
+     }
+     h1{
+         font-size: 25px;
+     }
+     .box{
+         width:42%;
+         margin: 10px;
+     }
+     .box h3{
+         font-size: 12px;
+     }
+ 
+
+}

@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #b4faa8;
+    background-image: linear-gradient(303deg, #b4faa8 0%, #faf7f7 47%, #f0b776 100%);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
